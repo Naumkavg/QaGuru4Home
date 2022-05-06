@@ -34,16 +34,16 @@ public class Home4Operators {
         // ==
         // !=
 
-        // =
-        // +=
+        // = присвасивание значения
+        // += математическая операция с присваиванием значения
         // -=
 
         // && (&)
         // || (|)
         // !
 
-        byte z = 8;
-        int i =95, m = 67;
+        byte z = 8, p = 122, w = -122;
+        int i =5, m = 67;
         long l = 540_000_000_000L;
 
         System.out.println((m + i) > (i - m));
@@ -77,6 +77,17 @@ public class Home4Operators {
 
         System.out.println(c + t);
         System.out.println(finish);
-    }
 
+
+        //переполнения в min и max
+        byte  h = 127;
+        byte j = 122;
+        byte k = -122;
+
+
+        System.out.println("byte >max = " + (h + j));
+        System.out.println("byte <min = " + (h - 400));
+
+
+    }
 }
